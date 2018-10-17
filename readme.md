@@ -15,4 +15,6 @@
 name: admin
 password: admin
 
+Описание системы - https://docs.google.com/document/d/1fUtvXqoMz4jtZlMiyVWYqYiSZKozINaki_vgWNG_0Rs/edit
+
 

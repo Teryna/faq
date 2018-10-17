@@ -10,7 +10,7 @@ class Category extends Model
     
     public function question()
     {
-        return $this->hasMany('App\Question');
+        return $this->hasMany(Question::class);
     }
     
     public function scopeLastCategories($query, $count)

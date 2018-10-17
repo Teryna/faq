@@ -17,7 +17,7 @@ class QuestionsController extends Controller
     public function index()
     {
         $categories = Category::all();
-        $questions = Question::paginate(10);
+        $questions = Question::orderBy('created_at' , 'desc')->paginate(10);
         return view('admin.questions.index', compact('questions', 'categories'));
     }
 
